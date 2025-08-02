@@ -1,3 +1,6 @@
-h1{
+.teste{
     color: blue;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
 }
