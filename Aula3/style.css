@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,11 +9,24 @@ body{
 .card {
     width: 37.5rem;
     height: 21.875rem;
+    overflow:hidden;
     border-radius: 3.125rem;
-    background: rgba(255,255,255,0.10);
-    box-shadow: 3px 4px 13.7px -2px rgba(0,0,0,0.25);
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 3px 4px 13.7px -2px rgba(0, 0, 0, 0.25);
 }
 
-.box{
-    
+.content {
+    position: relative;
+    left: 300px;
+    width: 21.5625rem;
+    height: 21.875rem;
+    background: #D9D9D9;
 }
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+
+.img{}
