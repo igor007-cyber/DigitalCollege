@@ -1,0 +1,37 @@
+:root {
+    --rich-black: #000814ff;
+--oxford-blue: #001d3dff;
+--yale-blue: #003566ff;
+--mikado-yellow: #ffc300ff;
+--gold: #ffd60aff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadrada{
+    position: absolute;
+    background-color: var(--oxford-blue);
+    width: 250px;
+    height:250px;
+    z-index: 2;
+}
+
+.circulo{
+    background-color: var(--mikado-yellow);
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    z-index: 1;
+}
